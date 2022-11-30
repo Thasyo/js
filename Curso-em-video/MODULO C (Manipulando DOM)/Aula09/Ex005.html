@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background-color: rgb(44, 176, 39);
+            font: normal 18pt arial;
+            color: rgb(248, 240, 240);
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado:</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
+    <p>To gostando bastante de <em><ins>JavaScript</ins></em></p>
+    <p id='dom'>JavaScript.</p>
+    <li class="alerta">Se Liga!</li>
+    <li class="elogio">Thasyo é lindo</li><br>
+    <div id="primeiro">Clique em mim</div><br>
+
+    <script>
+        //Como selecionar um elemento do HTML por marca (nome da tag)?
+        //getElementsByTagName();
+        var p1 = window.document.getElementsByTagName("p")[0] //esse [] indica a posição da tag que vai ser declarada.
+        window.document.write(p1.innerText)
+        var p2 = window.document.getElementsByTagName('p')[1]
+        window.document.write(p2.innerHTML)
+            //inner.text : não pega o texto sem a formatação;
+            //inner.HTML : pega o texto com a formatação;
+
+            //Adicionando css atráves do DOM;
+                //var body = window.document.body
+                //body.style.background='aqua'
+                //body.style.color='brown'
+
+        //Como selecionar um elemento do HTML por ID (nome da ID)?
+        //getElementById();
+        var id = window.document.getElementById('dom')
+        window.document.writeln('<br>', id.innerHTML)
+        id.style.background='black'
+        id.innerText = 'JS...' //comando modificando o texto original, mas não o substitue.
+        
+        //Como selecionar um elemento do HTML por por Classe (nome da Class)?
+        //getElementByClassName();
+        var classe01 = window.document.getElementsByClassName('alerta')[0]
+        classe01.innerText = 'Olha em baixo, hihi'
+        classe01.style.color='aqua'
+        classe01.style.background='red'
+
+        var classe02 = window.document.getElementsByClassName("elogio")[0]
+        classe02.innerText = 'Cara, Luana é MaraviLinda!'
+        classe02.style.background = 'pink'
+        classe02.style.color= 'black'
+
+        //Como selecionar um elemento do HTML por pelo Seletor ()?
+        //querySelector() ou querySelectorAll();
+        var sel = window.document.querySelector('div#primeiro')
+        sel.style.background='brown'
+        sel.style.color='purple'
+
+        //Escrevendo na página usando DOM.
+        window.alert("Bem-Vindo aos estudos de DOM!")
+        window.document.write('<br><br>Primeiros Estudos em DOM finalizados com SUCESSO! UFA!!')
+        
+
+
+
+
+    </script>
+</body>
+</html>

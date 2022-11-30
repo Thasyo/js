@@ -1,0 +1,198 @@
+Aula 01 - INTRODUÇÃO
+
+- O que é JavaScript?
+
+     - Uma linguagem de programação de alto nível;
+     - Auxilia na criação de páginas, junto de HTML e CSS;
+     - Possui tipagem dinâmica fraca (mudar tipo de variáveis no decorrer do programa);
+     - Considerada multiparadigma;
+
+- Para que serve o JavaScript?
+
+     - Manipulação de elementos e estilos na página (DOM);
+     - Criar eventos em uma página;
+     - Pode ser utilizada no Backend (NodeJS);
+
+- O que vamos aprender?
+
+     - As diversas utilizações do JavaScript;
+     - Sintaxe;
+     - Tipos de Dados;
+     - Estruturas de condição e repetição;
+     - Manipulação de DOM;
+     - Eventos do JavaScript;
+     - Particularidades do JavaScript;
+
+Aula 02 - PRIMEIRO PROGRAMA
+
+    - O código em JavaScript precisa ser inserido no HTML(<script>js<script/>)
+    - Então será executado ao carregar a página;
+    - 1° Programa: faça o HELLO WORLD;
+
+Aula 03 - COMO INSERIR CÓDIGO JAVASCRIPT EM UMA PÁGINA WEB?
+
+     - Há três formas de inserir JS em uma página;
+     - Head: linkando um arquivo de script;
+     - Body: escrevendo código entre a tags "script";
+     - Body: linkando um arquivo de script;
+
+Aula 04 - PARTICULARIDADES DA LINGUAGEM JAVASCRIPT
+
+     - O código é executado de cima para baixo;
+     - A linguagem é case sensitive (diferencia minuscula de maiuscula);
+     - Tipagem fraca (os tipos de dados podem mudar no decorrer do código);
+     - O ponto e vírgula a cada instrução é opcional (mas é bom sempre usar);
+     - Há comentários para uma linha e múltiplas linhas;
+
+Aula 05 - DECLARANDO VARIÁVEIS
+
+     - As variáveis armazenam valores;
+     - Estes valores podem ser utilizados posteriormente;
+     - No JavaScript, é possível criar varipaveis de três formas;
+     - Podemnos mudar o tipo da variável livremente (tipagem fraca);
+
+Aula 06 - TIPOS DE DADOS
+
+     - No JavaScript, temos diversos tipos de dados, os mais comuns e utilizados são:
+     - Number, String, Boolean, null e undefined, Object;
+     - Podemos verificar o tipo do dado com o operador "typeof";
+
+     -> Tipos de Dados: Number
+
+          - O Number é o tipo de dado para números;
+          - Possui três valores simbólicos: +Infinity, -Infinity e NaN;
+          - Não existe um tipo definido para inteiros, todo número é um Number;
+     
+Aula 07 - COMO UTILIZAR STRINGS?
+
+     - String é  o tipo de dados para textos;
+     - As strings podem ser escritas com aspas simples e duplas;
+     - Um número entre aspas pode ser considerado uma string;
+     - É possível também concatenar strings com o +;
+
+Aula 08 - TIPO DE DADOS: BOOLEAN
+
+     - O boolean representa um valor verdadeiro ou falso;
+     - Comparações resultam em Booleans;
+     - Podemos também atribuir um true ou false para uma variável e ela terá o tipo de Boolean;
+
+Aula 09 - TIPO DE DADOS: NULL AND UNDEFINED
+
+     - undefined e null também são considerados tipos de dados;
+     - O null é um tipo de dado que representa um valor;
+     - O undefined é um tipo d dado para uma variável com valor não atribuído - indefinido;
+
+Aula 10 - TIPO DE DADO: OBJECT
+
+     - Funcionam como um array associativo de outras linguagens;
+     - Podemos criar propriedados com chave e valor;
+     - A ideia é guardar um conjunto de valores para utilizar posteriormente;
+
+Aula 11 - TIPO DE DADO: ARRAYS
+
+     - Na verdade, os arrays são considerados objetos em JavaScript, porém servem como listas;
+     - Podemos ter itens de qualuqer tpo de dado também;
+     - Porém, não por chave e valor, e sim por índice;
+
+Aula 12 - OPERADOR CONDICIONAL IF
+
+     - São instruções que podem determinar o fluxo de uma aplicação;
+     - Amplamente utilizadores, deixam os softwares dinâmicos;
+     - Exemplos: if, else if, else;
+
+Aula 13 - OPERADORES DE COMPARAÇÃO
+
+      São comumente utilizados para verificação nas estruturas de condição;
+     - Temos os seguintes operadores: ==, !=, >, <, >=, <=.
+     - A partir de uma expressão de comparação, podemos obter um true ou false;
+
+Aula 14 - CONDICIONAL: ELSE E ELSE IF
+
+     - Caso a instrução de if seja negativa, podemos adicionar else;
+     - Que será a outra condicional a ser executada;
+     - Podemos então criar uma bifurcação no código;
+     - Já o else if tem a possibilidade de fazer outra verificação e adicionar mias um bloco de código;
+
+Aula 15 - COMPARAÇÃO DE TIPO E VALOR
+
+     - Dois outros operadores de comparação existemno JavaScript.
+     - São eles: "===" e "!==";
+     - A função é compara valor e tipo de dado;
+
+Aula 16 - Operador Lógico AND ou && 
+
+     - Realizam comparações para que seja retornado um true ou false;
+     - Decidindo então o fluxo da aplicação;
+     - Utilizamos principalmente nas instruções de condição e repetição, em conjunto dos operadores de comparação; 
+
+Aula 17 - Operador Lógico OR ou || 
+
+     - Realizam comparações para que seja retornado um true ou false;
+     - Decidindo então o fluxo da aplicação;
+     - Utilizamos principalmente nas instruções de condição e repetição, em conjunto dos operadores de comparação; 
+
+Aula 18 - Operador Lógico NOT ou !
+
+     - Este operador muda o valor que a expressão retornou;
+     - Se recebeu true vira false, se recebeu false vira true;
+
+Aula 19 - ESTRUTURA DE REPETIÇÃO (WHILE)
+
+     - Estas eestruturas servem para repetir x vezes uma operação;
+     - Por Exemplo: repetir uma determinar lógica em cada elemento de um array;
+     - As estruturas mais comuns são: while e for;
+     - PS: CUIDADO COM OS LOOPS INFINITOS;
+
+Aula 20 - OPERADORES DE ATRIBUIÇÃO
+
+     - As mais utlizadas, são: +=, -=, *=, /=;
+     - Em oops, é comum utilizar os operadores == e --;
+
+Aula 21 - ESTRUTURA DE REPETIÇÃO FOR
+
+     - O "FOR" tem uma sintaxe mais complexa, mas é optado pela maioria dos programadores;
+     - Apesar de parecer mais difícil, como a instrução fica toda em uma linha, proporciona maior controle;
+
+Aula 22 - BREAK AND CONTINUE
+
+     - Com o Break, podemos encerrar uma instrução;
+     - Com o Continue, podemos pular uma instrução;
+     - Geralmente utilizamos na maioria das vezes em laços de repetição;
+
+Aula 23 - BASIC FUNCTIONS
+
+     - Funções são blocos de códigos reutilizáveis;
+     - Com as funções, evitamos a repetição da lógica de um programa em muitas partes do código;
+     - A função para funcionar, é necessário executar o processo de chamamento da função;
+
+Aula 24 - ALTERANDO O DOM COM O FOR (*aula prática*);
+
+Aula 25 - ESCOPO
+
+     - GLOBAL: é iniciado em toda aplicação;
+     - LOCAIS: podem existir em várias aplicações, como as funções;
+
+Aula 26 - LET E CONST
+
+     - Com LET e CONST, podemos criar escopo até em IFs;
+     - Deixa o código mais confiável;
+     - É possível separar cada bloco em um escopo;
+
+Aula 27 - MÉTODOS NÚMERICOS
+
+     - O objeto Number, pai dos números, contém métodos muito úteis para trabalhar com números em JS;
+     - A maioria dos tipos de dado também tem um objeto PAI, como: String, Object and Array;
+
+Aula 28 e 29 - MÉTODOS DE STRINGS
+
+     - O objeto String também possui métodos muito úteis;
+     - Nos auxilia a manusear textos nos softwares;
+
+Aula 30 e 31 - MÉTODOS DE ARRAYS
+
+     - Os arrays também possuem métodos.
+     - Facilitam várias funcionalidades: adiconar, remover, resgatar dados, localizar elementos e posições dentro de um elemento;
+
+
+
+
