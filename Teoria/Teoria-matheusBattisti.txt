@@ -191,8 +191,16 @@ Aula 28 e 29 - MÉTODOS DE STRINGS
 Aula 30 e 31 - MÉTODOS DE ARRAYS
 
      - Os arrays também possuem métodos.
-     - Facilitam várias funcionalidades: adiconar, remover, resgatar dados, localizar elementos e posições dentro de um elemento;
+     - Facilitam várias funcionalidades: adiconar, remover, resgatar dados, 
+     localizar elementos e posições dentro de um elemento;
 
+Aula 32 - CRIANDO OBJETO COM MÉTODOS
 
+     - Muitos tipos de dados têm métodos e propriedades;
+     - Podemos criar objetos com métodos para nos auxiliar em nossos softwares;
 
+Aula 33 - A INSTRUÇÃO THIS
+
+     - Fora do escopo, o THIS sempre se refere ao objeto global WINDOW.
+     - O THIS vai se referir a instância e pode acessar suas propriedades.
 

@@ -1,4 +1,4 @@
-//Push: ADICIONA elementos no final do array. Além disso, ele adiciona qualquer tipo de dado.
+//Push: ADICIONA elementos no final do array. Além disso, ele adiciona qualquer tipo de dado;
 
 var arr = [1, 2, 3, 4];
 console.log("antes do push");
@@ -8,7 +8,7 @@ arr.push(5);
 console.log("depois do push");
 console.log(arr); //retorna [1, 2, 3, 4, 5];
 
-//Pop: REMOVE elementos no final do array.
+//Pop: REMOVE elementos no final do array;
 console.log("---- ----- -----");
 var arr = [1, 2, 3, 4];
 
