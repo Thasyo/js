@@ -204,3 +204,20 @@ Aula 33 - A INSTRUÇÃO THIS
      - Fora do escopo, o THIS sempre se refere ao objeto global WINDOW.
      - O THIS vai se referir a instância e pode acessar suas propriedades.
 
+Aula 34 - INSTRODUÇÃO AO DOM
+
+     - Document Object Model;
+     - Uma interface de programação HTML;
+     - Por meio dele, temos métodos para acessar a árvore de elementos;
+     - O DOM fornece uma cópia do HTML;
+     - Podemos manipular o DOM para "afetar" o HTML;
+
+Aula 35 e 36 - ACESSANDO ELEMENTOS NO DOM
+
+     - Acessar o DOM caracteriza-se por identificar um elemento do HTML através de métodos;
+     - Depois, podemos manipulá-los como quiser;
+     - Podemos acessar o DOM por: TAGS, IDS e CLASSES;
+     
+     - Com a evolução da linguagem, foram criados dois seletores que acabam com toda a complexidade desta ação;
+     - São elas: querySelector() and querySelectorAll();
+     - base de acesso semelhantes as regras de CSS;
