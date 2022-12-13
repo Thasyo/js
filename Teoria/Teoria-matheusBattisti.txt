@@ -221,3 +221,39 @@ Aula 35 e 36 - ACESSANDO ELEMENTOS NO DOM
      - Com a evolução da linguagem, foram criados dois seletores que acabam com toda a complexidade desta ação;
      - São elas: querySelector() and querySelectorAll();
      - base de acesso semelhantes as regras de CSS;
+
+Aula 37 - ALTERANDO CONTEÚDO COM O DOM
+
+     - É possível alterar o texto(string) de qualquer elemento;
+     - Da mesma maneira, é possível também atrelar esta ação com algum evento;
+     - Para alterar o conteúdo, utilizamos: <var>.textContent = "<alterando conteudo>" ou <var>.innerHTML = "<alterando conteudo>";
+
+Aula 38 - CRIANDO ELEMENTOS NO DOM
+
+     - Árvore DOM dos elementos: <criar_TAG>; <criar_TEXTO>; <inserir_no_HTML>;
+     - Para criar elementos, utilizamos: var <nome_var> = document.createElement("<elementoHTML>");
+
+Aula 39 - REMOVENDO ELEMENTOS NO DOM
+
+     - É possível remover um texto pai diretamente como também um elemento filho;
+     - Para remover, utilizamos: PAI: <var>.remove(); FILHO: <var>.removeChild();
+
+Aula 40 - ADICIONANDO ELEMENTOS NO DOM
+
+     - É considerado como "ACRESCENTAR UM FILHO" no javascript;
+     - Para adicionar, utilizamos: FINAL DA TAG-PAI: <var_pai>.appendChild(<var_filho>); MEIO DO PAI: <var_pai>.insertBefore(<var_que_sera_adc>, <var_referencial>);
+
+Aula 41 - TROCANDO ELEMENTOS NO DOM
+
+     - Basicamente é substituir uma TAG por OUTRA TAG;
+     - Para trocar elementos, utilizamos: <var_pai>.replaceChild(<var_substituir>, <var_subtituida>);
+     
+Aula 42 - ALTERANDO ATRIBUTOS VIA JS NO DOM
+
+     - É possível alterar os atributos via JS com o DOM;
+     - EX: alterar o "src" de de um imagem;
+     - Todos os atributos podem ser alterados via JS;
+     - Para adicionar, utilizamos: <var>.setAttribute("<atributo>", "<nome_atributo>");
+     - Para remover, utilizamos: <var>.removeAttribute("<atributo>");
+ 
+
