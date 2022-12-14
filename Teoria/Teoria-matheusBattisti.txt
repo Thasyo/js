@@ -256,4 +256,31 @@ Aula 42 - ALTERANDO ATRIBUTOS VIA JS NO DOM
      - Para adicionar, utilizamos: <var>.setAttribute("<atributo>", "<nome_atributo>");
      - Para remover, utilizamos: <var>.removeAttribute("<atributo>");
  
+ Aula 43 - CSS NO DOM
+
+     - É possível alterar o CSS pelo DOM;
+     - As regras do CSS no DOM ficam de forma "inline". Ou seja, sobrescrevem a maioria das propriedades;
+
+Aula 44 - Propriedades de Document
+
+     - O object "document" não possui só métodos;
+     - Também possui várias informações das propriedades;
+     
+Aula 45 - CALLBACK FUNCTIONS
+
+     - É um recurso muito interessante;
+     - Permite executar uma função após uma ação;
+     - É um conceito fundamental para entender a parte assíncrona do JS;
+
+Aula 46 - setTimeout() e setInterval()
+
+     - Podemos, com estas funções, criar ações no software que executam depois de um tempo ou de tempos em tempos;
+     - Um dos argumentos desta função é uma callback function (assíncrona);
+     - Para utilizar o setTimeout(): setTimeout(<ação>, <tempo que será esperado para executar a ação>);
+     - Para utilizar o setInterval(): setInterval(<ação>, <tempo entre cada execução>);
+
+Aula 47 - clearTimeout() e clearInterval()
+
+     - Podemos encerrar o setTimeout e o setInterval por meio destes dois métodos;
+     - Basicamente, após determinada condição, os timers não serão executados;
 
