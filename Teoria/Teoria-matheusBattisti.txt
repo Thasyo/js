@@ -284,3 +284,12 @@ Aula 47 - clearTimeout() e clearInterval()
      - Podemos encerrar o setTimeout e o setInterval por meio destes dois métodos;
      - Basicamente, após determinada condição, os timers não serão executados;
 
+Aula 48 - EVENTOS E ONLOAD
+
+     - Por meio do javascript, podemos mapear algumas ações dos usuário, que chamamos de "eventos";
+     - Como: movimento do mouse, click, mouse entrando ou saindo de um elemento, carregamento de páginas e etc;
+     - E então criar comportamento interessante, como: animação de menu abrindo e fechando;
+
+     - ONLOAD: é ativado ao carregar a página;
+     - Podemos, depois dese evento, realizar alguma ação no noso projeto;
+
