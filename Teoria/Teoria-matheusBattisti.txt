@@ -293,3 +293,21 @@ Aula 48 - EVENTOS E ONLOAD
      - ONLOAD: é ativado ao carregar a página;
      - Podemos, depois dese evento, realizar alguma ação no noso projeto;
 
+Aula 49 - EVENTOS CLICK E DBLCLICK
+
+     - CLICK: é ativado quando o usuário clica em algum elemento em que atrelamos um evento;
+     - DBLCLICK: é ativado quando o usuário clica duas vezes em algum elemento em que atrelamos um evento;
+     - Após a ação, podemos fazer as modificações e alterações no HTML/CSS;
+     - Método interessante que vai ser usado é o "<var>.addEventListener("<nome_evento>, function(){<callback function>}")";
+
+Aula 50 - EVENTOS MOUSEOVER E MOUSEOUT
+
+     - MOUSEOVER: é ativado quando o ponteiro do mouse passa em cima do elemento que criamos o evento;
+     - MOUSEOVER: é ativado quando o ponteiro do mouse sai do elemento;
+     
+Aula 51 - EVENTOS KEYDOWN E KEYUP
+
+     - KEYDOWN: é ativada quando uma tecla é pressionada;
+     - KEYUP: é ativada quando a tecla volta a posição normal;
+
+
