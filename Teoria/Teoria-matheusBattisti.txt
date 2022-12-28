@@ -310,4 +310,8 @@ Aula 51 - EVENTOS KEYDOWN E KEYUP
      - KEYDOWN: é ativada quando uma tecla é pressionada;
      - KEYUP: é ativada quando a tecla volta a posição normal;
 
+Aula 52 - Projeto Final do Curso
+
+     - To Do List;
+     - Site usado para os ícones do projeto: https://ionic.io/ionicons;
 
