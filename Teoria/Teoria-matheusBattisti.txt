@@ -310,8 +310,16 @@ Aula 51 - EVENTOS KEYDOWN E KEYUP
      - KEYDOWN: é ativada quando uma tecla é pressionada;
      - KEYUP: é ativada quando a tecla volta a posição normal;
 
-Aula 52 - Projeto Final do Curso
+Aula 52 - MÉTODOS DE ARRAYS
 
-     - To Do List;
-     - Site usado para os ícones do projeto: https://ionic.io/ionicons;
+     - ;
+
+Aula 53 - ASYNC E AWAIT
+
+     - As funções assíncronas funcionam como Promisses;
+     - Precisamos declarar a função com a palavra "async";
+     - O "Await" é usado quando precisamos aguardar por "algo";
+     - Podemos aplicar em funções anônimas e métodos de classes;
+     - Usar "Await" sem o "Async", gera-se um erro;
+  
 
