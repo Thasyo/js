@@ -321,5 +321,20 @@ Aula 53 - ASYNC E AWAIT
      - O "Await" é usado quando precisamos aguardar por "algo";
      - Podemos aplicar em funções anônimas e métodos de classes;
      - Usar "Await" sem o "Async", gera-se um erro;
-  
+
+Aula 54 - JSON
+
+     - JSON: JavaScript Object Notation;
+     - Um formato de presentação de dados;
+     - Utiliza o formato: CHAVE e VALOR;
+     - É leve para sr usado por requisições;
+     - Muito utilizadopara API e também arquivos de configuração;
+
+     => TIPOS DE DADOS QUE O JSON SUPORTA:
+
+          - STRINGS: "Olá Mundo!";
+          - NUMBER: 12234 ou 12.234;
+          - ARRAY: [1,2,3,4,5];
+          - OBJECT: {"nome": "Thasyo"};
+          - DADOS NULOS: NULL; 
 

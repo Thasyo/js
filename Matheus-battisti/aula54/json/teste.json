@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "nome": "Thasyo",
+        "idade": 20,
+        "esta_trabalhando": true,
+        "detalhes_profissao": {
+            "profissao": "Programador",
+            "empresa": "Bemobi",
+            "salario": 3.500
+        },
+        "hobbies": ["Jogar Futebol", "Correr", "Malhar"] 
+    }
+]
