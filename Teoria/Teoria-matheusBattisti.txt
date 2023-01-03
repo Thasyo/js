@@ -338,3 +338,11 @@ Aula 54 - JSON
           - OBJECT: {"nome": "Thasyo"};
           - DADOS NULOS: NULL; 
 
+Aula 55 - PROMISES
+
+     - São como promessas da vida real, ela esta esperando algum retorno;
+     - Para criar uma promise, instanciamos a classe Promise;
+     - Que leva dois argumentos: resolve (solução) e reject (erro);
+     - Para encadear mais processos, utilizamos o método "then";
+     - Alguns recursos de JS (Fetch API) e bibliotecas retornam Promises;
+
