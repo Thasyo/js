@@ -346,3 +346,16 @@ Aula 55 - PROMISES
      - Para encadear mais processos, utilizamos o método "then";
      - Alguns recursos de JS (Fetch API) e bibliotecas retornam Promises;
 
+Aula 56 - CLASSES
+
+     - Muito utilizada em POO;
+     - Sempre declarada antes de chamada;
+
+Aula 57 - FETCH API
+
+     - Um meio nativo de realizar requisições a APIs com JavaScript;
+     - Podemos utilizar com Promises ou Async/Await;
+     - Se a requisição for 'GET', é preciso passsar a URL do recurso que estamos resgatando da API;
+     - Caso seja outro verbo, podemos configurar a requisição com: method, body e headers;
+     - O fetch é muito utilizado com frameworks/libs, como: React, Vue e Angular;
+
