@@ -359,3 +359,7 @@ Aula 57 - FETCH API
      - Caso seja outro verbo, podemos configurar a requisição com: method, body e headers;
      - O fetch é muito utilizado com frameworks/libs, como: React, Vue e Angular;
 
+Aula 58 - IMPORT AND EXPORT
+
+     - Sintaxe de exportação: export default <nome_var>;
+     - Sintaxe de importação: import <nome_var> from "nome_do_arquivo.js";
